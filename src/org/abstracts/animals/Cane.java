@@ -1,7 +1,5 @@
 package org.abstracts.animals;
 
-import java.time.LocalDate;
-
 public class Cane extends Animale{
 	private String cibo;
 	private String verso;

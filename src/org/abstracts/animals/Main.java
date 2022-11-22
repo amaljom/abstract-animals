@@ -18,6 +18,11 @@ public class Main {
 		System.out.println("--------------------------");
 		System.out.println("Cosa mangia un'acquila?");
 		System.out.println("\nL'acquila: " + a1.getCibo());
+	
+	}
+	
+	public static void faiNuotare(INuotante animale) {
 		
+		animale.nuota();
 	}
 }

@@ -1,10 +1,11 @@
 package org.abstracts.animals;
 
-public class Delfino extends Animale{
+public class Delfino extends Animale implements INuotante{
 	private String cibo;
 	private String verso;
 	
 	public Delfino(String cibo, String verso) {
+		super();
 		setCibo(cibo);
 		setVerso(verso);
 	}
@@ -42,6 +43,12 @@ public class Delfino extends Animale{
 	public String mangia() {
 		
 		return getCibo();
+	}
+	
+	@Override
+	public void nuota() {
+		
+		System.out.println("sto nuotando");
 	}
 
 	
